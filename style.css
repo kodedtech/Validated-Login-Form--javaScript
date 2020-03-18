@@ -1,0 +1,89 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(images/backgr.jpg);
+	background-position: center;
+	font-family: century Gothic;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	color: #561919;
+}
+
+.container{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+}
+
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #130f40;
+}
+
+#form div{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+#form{
+	position: relative;
+	z-index: 1;
+	/*background-color: #9FA2B5;*/
+	max-width: 360px;
+	margin: 5px 0;
+	padding: 45px;
+	font-size: 18px;
+	color: #130f40;
+	text-align: center;
+}
+
+#form input{
+	font-family: "Roboto", sans-serif;
+	outline: none;
+	/*background: #f2f2f2;2*/
+	height: 40px;
+	width: 350px;
+	border: 1px solid silver;
+	margin-top: 30px;
+	padding: 0 5px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+#form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: none;
+	background: linear-gradient(90deg,#011 0%,deeppink 350%);
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	border: 1px solid;
+	padding: 15px;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px;
+	opacity: 1;
+}
+
+#form button:hover,.form button:active{
+	background: linear-gradient(-90deg,#011 0%,aqua 350%);
+}
+
+
+
+

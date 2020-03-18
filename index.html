@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div id="error" style="color:#FFF"></div>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+	
+
+		<form id="form" action="/" method="GET">
+		<div>
+			<label for="firstname">First Name</label>
+			<input id="firstname" name="firstname" type="text">
+		</div>
+		<div>
+			<label for="lastname">Last Name</label>
+			<input id="lastname" name="lastname" type="text">
+		</div>
+
+
+		<div>
+			<label for="email">Email</label>
+			<input id="email" name="email" type="emailID" placeholder="me@example.com">
+		</div>
+
+		<div>
+			<label for="number">Phone Number</label>
+			<input id="phonenumber" name="number" type="tel">
+		</div>
+
+
+		<div>
+			<label for="password">Password</label>
+			<input id="password" name="password" type="password">
+		</div>
+
+		<div>
+			<!-- <label for="gender">Gender</label>
+			<label> <input id="gender" name="gender" type="radio">Female </label>
+			<label>	<input id="gender" name="gender" type="radio" value="male"> Male</label> -->
+			<legend>Choose Your Gender:-</legend>
+        	<label for="male">Male</label>
+        	<input type="radio" name="gender" id="male" value="male" checked>
+        	<label for="female">Female</label>
+        	<input type="radio" name="gender" id="female" value="female">
+        	<label for="others">Others</label>
+        	<input type="radio" name="gender" id="others" value="others">
+		</div>
+
+		<button id="submit" type="button">Submit</button>
+	</div>
+</body>
+</html>
+
